@@ -3,6 +3,9 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 
+# def add(a, b):
+#     return a + b
+
 @app.route('/')
 def index():
     return render_template('index.html')
